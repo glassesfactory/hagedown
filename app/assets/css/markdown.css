@@ -1,0 +1,17 @@
+article.row-fluid .content h1, article.row-fluid .content h2, article.row-fluid .content h3, article.row-fluid .content h4, article.row-fluid .content h5, article.row-fluid .content h6 {
+  line-height: 1.5em; }
+article.row-fluid .content h1 {
+  font-size: 28px; }
+article.row-fluid .content h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #e7e7e7; }
+article.row-fluid .content h3 {
+  font-size: 20px;
+  border-bottom: 1px solid #e7e7e7; }
+article.row-fluid .content h4 {
+  font-size: 16px; }
+article.row-fluid .content h5 {
+  font-size: 14px; }
+article.row-fluid .content h6 {
+  font-size: 16px;
+  color: #666666; }

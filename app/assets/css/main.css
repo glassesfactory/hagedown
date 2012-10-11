@@ -1,0 +1,194 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #2b0f01; }
+
+a {
+  color: #2b0f01; }
+
+a:hover {
+  color: white;
+  background: #cf3616;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2b0f01; }
+
+h1.tagged {
+  color: #cf3616; }
+
+h2 {
+  font-size: 16px; }
+
+.navbar-inner {
+  background: white;
+  background-image: none;
+  box-shadow: none;
+  -webkit-boxshadw: none;
+  border: none; }
+
+.navbar-fixed-top .navbar-inner {
+  box-shadow: none;
+  -webkit-boxshadw: none; }
+
+.navbar .brand {
+  color: #2b0f01;
+  text-shadow: none; }
+
+.navbar .brand:hover {
+  color: white; }
+
+.navbar .nav {
+  margin: 0; }
+
+.navbar .nav li.dropdown a {
+  color: #2b0f01; }
+.navbar .nav li.dropdown a.more {
+  color: #cf3616; }
+
+.navbar .nav > li > a.write {
+  height: 24px;
+  padding: 8px; }
+
+.navbar .nav > li > a.write:hover {
+  background: #ab7b4a; }
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #2b0f01;
+  border-bottom-color: #2b0f01; }
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #2b0f01;
+  background: #f5f4df;
+  text-shadow: none; }
+
+.navbar .nav li.dropdown a ul.dropdown-menu li a {
+  color: #2b0f01; }
+
+.navbar .nav li.dropdown ul.dropdown-menu li a:hover {
+  background: #f5f4df; }
+
+.form-area {
+  padding: 0 20px; }
+  .form-area textarea {
+    height: 500px; }
+  .form-area .btnArea {
+    width: 900px;
+    text-align: center; }
+  .form-area .h-btn {
+    color: #2b0f01;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    background: #e7e7e7;
+    padding: 7px 10px;
+    margin: 0 5px; }
+  .form-area .h-btn-primary {
+    color: white;
+    background: #16bbcf;
+    border-color: #14a9bb; }
+
+article.row-fluid {
+  margin-bottom: 80px; }
+  article.row-fluid h1 {
+    font-size: 18px;
+    line-height: 22px; }
+  article.row-fluid footer {
+    margin-top: 0;
+    padding: 10px;
+    background: #faf9f9; }
+    article.row-fluid footer small {
+      color: #d3ccbc; }
+  article.row-fluid footer:after {
+    content: "";
+    clear: both;
+    display: table; }
+  article.row-fluid .list pre {
+    margin-bottom: 0;
+    border-radius: 0;
+    background: none;
+    font-family: "Bitstream Vera Sans Mono", Courier;
+    border-color: #e7e7e7; }
+
+article.show footer {
+  border-top: 1px solid #e7e7e7; }
+
+.pagination {
+  text-align: center; }
+  .pagination ul {
+    margin-left: auto;
+    margin-right: auto; }
+    .pagination ul li a:hover {
+      color: #2b0f01;
+      background: #f5f4df; }
+    .pagination ul li.active a {
+      background: #faf9f9;
+      color: #cf3616; }
+
+.alertArea {
+  position: fixed;
+  width: 100%; }
+  .alertArea ul {
+    list-style: none; }
+  .alertArea .alert {
+    border-radius: 0;
+    font-size: 12px; }
+    .alertArea .alert h6 {
+      margin: 0; }
+    .alertArea .alert ul {
+      margin: 0; }
+  .alertArea .warning {
+    color: #ff3333;
+    background: #ffdddd;
+    border: 1px solid #ffcbcb; }
+  .alertArea .success {
+    background: #dff0d8;
+    color: #468847;
+    border: 1px solid #d6e9c6;
+    -webkit-transform: translate3d(0, -60px, 0); }
+    .alertArea .success h6 {
+      color: #468847; }
+
+#tagArea a:hover {
+  background: none; }
+#tagArea .label {
+  background-color: #cf3616; }
+#tagArea .label:hover {
+  background-color: #eb3d19; }
+
+.tagSize1 {
+  font-size: 14px; }
+
+.tagSize2 {
+  font-size: 16px; }
+
+.tagSize3 {
+  font-size: 18px; }
+
+.tagSize4 {
+  font-size: 20px; }
+
+.tagSize5 {
+  font-size: 22px; }
+
+.tagSize6 {
+  font-size: 24px; }
+
+.tagSize7 {
+  font-size: 28px; }
+
+.tagSize8 {
+  font-size: 32px; }
+
+.tagSize9 {
+  font-size: 36px; }
+
+.tagSize10 {
+  font-size: 40px; }
+
+.tagSize11 {
+  font-size: 44px; }
+
+.tagSize12 {
+  font-size: 48px; }

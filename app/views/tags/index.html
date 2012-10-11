@@ -1,0 +1,10 @@
+{% extends "partial/base.html" %}
+{% block title %}TAG INDEX | {{ super()}}{% endblock %}
+	{% block main %}
+		<h1>TAG INDEX</h1>
+		<div class="container">
+			{% for tag in tagList %}
+				<a href="/tags/{{tag.name}}" class="tagSize{{tag.size}}">{{tag.name}}</a>
+			{% endfor %}
+		</div>
+	{% endblock %}

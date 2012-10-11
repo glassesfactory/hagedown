@@ -1,0 +1,26 @@
+<form action="{{ action}}" class="form" method="{{ method }}">
+	<div class="control-group">
+		<label class="control-label" for="title">タイトル</label>
+		<div class="controls">
+			<input type="text" name="title" id="title" class="span11">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="text">本文 <small>markdown</small></label>
+		<div class="controls">
+			<textarea name="text" class="span11"></textarea>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="tags">タグ <small>複数タグは "," で区切ってくだしあ</small></label>
+		<div class="controls">
+			<input type="text" name="tags" id="tags" class="span11">
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls btnArea">
+			<button class="h-btn h-btn-primary" type="submit">保存</button>
+			<button class="h-btn" type="reset">キャンセル</button>
+		</div>
+	</div>
+</form>

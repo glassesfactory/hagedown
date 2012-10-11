@@ -1,0 +1,27 @@
+{% extends "partial/base.html" %}
+{% block title %}{{article.title}} | {{ super()}}{% endblock %}
+{% block main %}
+	<article class="row-fluid show">
+		<h1>{{article.title}}</h1>
+		<div class="row-fluid content">
+			{{article.text}}
+		</div>
+		<footer>
+				<div class="nav">
+					<div id="tagArea" class="pull-left">
+						<small>created : {{ article.created_at }}</small>
+						{% for tag in article.tags %}
+							<a href="/tag/{{tag}}"><span class="label">{{tag}}</span></a>
+						{% endfor %}
+					</div>
+					<div class="pull-right">
+						<a href="/{{article.id}}/edit">[edit]</a>
+						<a href="/del/{{article.id}}" data-method="post">[del]</a>
+					</div>
+				</div>
+			</footer>
+	</article>
+	<div class="row-fluid">
+		<a href="/"><< 戻る</a>
+	</div>
+{% endblock%}
